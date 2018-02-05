@@ -1,1 +1,5 @@
-This project contains a C++ code to show the working of a publisher and node, and a service and client.
+A ROS package comprised of
+1. A C++ publisher node that publishes a TOPIC and
+2. A C++ subscriber node that subscribes to this TOPIC.
+3. A C++ server node that provides a SERVICE.
+4. A C++ client node that calls the server node’s SERVICE
